@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dancing+Script:wght@700&family=Major+Mono+Display&family=Playball&family=Playfair+Display+SC&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    overflow-x: hidden;
+}
+#mynavbar
+{
+    justify-content: space-around;
+    color: #E8F6EF;
+    box-shadow: -1px 9px 12px -2px rgba(0,0,0,0.47);
+    -webkit-box-shadow: -1px 9px 12px -2px rgba(0,0,0,0.47);
+    -moz-box-shadow: -1px 9px 12px -2px rgba(0,0,0,0.47);
+    width: 100%;
+}
+
+#navbar-brand
+{
+    font-family: 'Major Mono Display', monospace;
+    font-weight: 1000;
+    font-size: 1.5rem;
+    color: black;
+}
+.nav-link
+{
+    font-weight: bolder;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1rem;
+}
+#facebook:hover
+{
+    color: #3b5998;
+}
+#linkedin:hover
+{
+    color: #00a0dc;
+}
+#github:hover
+{
+    color: black;
+}
+#instagram:hover
+{
+    color: #3b5998;
+}
+.hero
+{
+    background-image: url('./images/dl.beatsnoop.com\ -\ 1635576189.jpg');
+    width: 100%;
+    height: 75vh;
+    /* top: 10%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   justify-content: center;
+   margin-top: 2rem;
+    /* background-color: #683ccd; */
+}
+/* toggler icon modifing */
+#togglericon
+{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    border: none;
+}
+.hero-desc
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 9rem 0 0 1rem;
+    justify-content: center;
+    text-align: center;
+    
+}
+.hero-desc #herobg
+{
+    background-color: rgb(0,0,0,0.2);
+    padding: 2rem;
+}
+.hero-desc #title
+{
+    color: black; 
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    font-size: 4rem;
+    width: 100%;
+    margin: auto;
+}
+#testype
+{
+    color: black; 
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin: auto;
+}
+#aboutcard
+{
+    border: none;
+}
+#aboutme
+{
+    font-family: 'Playfair Display SC', serif;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: #149ddd;
+    
+}
+#aboutimg
+{
+    height: 25rem;
+    border-radius: 50% ;
+}
+#whatdo
+{
+    font-family: 'Playfair Display SC', serif;
+}
+
+#education
+{
+    font-family: 'Playfair Display SC', serif;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: #149ddd;
+}
+#icon
+{
+    border-radius: 50%;
+    background-color: grey;
+    width: 3rem;
+    height: 3rem;
+}
+#educatitle
+{
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+    text-decoration: none;
+}
+blockquote
+{
+    background-color: #e4edf9;
+    width: 20%;
+    opacity: 0.5;
+    color: black;
+    border-radius: 0.9rem;
+    padding: 0.1rem;
+    font-family: 'DM Serif Display', cursive;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+#date
+{
+    background-color: #e4edf9;
+        width: 40%;
+        opacity: 0.5;
+        color: black;
+        border-radius: 0.9rem;
+        padding: 0.1rem;
+        font-family: 'DM Serif Display', cursive;
+        font-weight: bolder;
+        font-style: italic;
+}
+#skills
+{
+    font-weight: bolder;
+}
+.icon
+{
+    border-radius: 50% 50% 50% 50%; 
+    background-color: gray;
+    opacity: 0.6;
+    width: 6rem;
+    height: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.icon1
+{
+    border-radius: 50% 50% 50% 50%; 
+    background-color: gray;
+    opacity: 0.6;
+    width: 6rem;
+    height: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.icon3
+{
+    border-radius: 50% 50% 50% 50%; 
+    background-color: gray;
+    opacity: 0.6;
+    width: 6rem;
+    height: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.icon4
+{
+    border-radius: 50% 50% 50% 50%; 
+    background-color: gray;
+    opacity: 0.6;
+    width: 6rem;
+    height: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+#bx-icon
+{
+    position: absolute;
+    bottom: 2rem;
+    top: 1rem;
+    right: 2rem;
+}
+#bx-icon1
+{
+    position: absolute;
+    bottom: 2rem;
+    top: 1rem;
+    right: 1rem;
+    
+}
+#card
+{
+    box-shadow: 0px 0 35px 0 rgb(0 0 0 / 8%)
+}
+.icon:hover
+{
+    background-color: #47aeff;
+}
+.icon1:hover
+{
+    background-color: #ffa76e;
+}
+.icon3:hover
+{
+    background-color: #11dbcf;
+    
+}
+.icon4:hover
+{
+    background-color: yellow;
+    
+}
+#my_footer
+{
+    background-color: black;
+    height: 3rem;
+    max-height: 100%;
+    overflow: hidden;
+}
+/* mediaqueries */
+@media (min-width:280px) and (max-width:320px) {
+    #navbar-brand
+    {
+        font-size: 1rem;
+        margin-left: 0 !important;
+    }
+    .hero
+    {
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-color: 0;
+        background-image: url('./images/darshan.jpeg');
+        /* background-color: #683ccd; */
+        width: 100%;
+        height: 60vh;
+        background-position: center;
+        background-size: cover;
+    }
+    blockquote
+    {
+        background-color: #e4edf9;
+        width: 100%;
+        opacity: 0.5;
+        color: black;
+        border-radius: 0.9rem;
+        padding: 0.1rem;
+        font-family: 'DM Serif Display', cursive;
+        font-weight: bolder;
+        font-style: italic;
+
+    }
+    #date
+    {
+        background-color: #e4edf9;
+        width: 100%;
+        opacity: 0.5;
+        color: black;
+        border-radius: 0.9rem;
+        padding: 0.1rem;
+        font-family: 'DM Serif Display', cursive;
+        font-weight: bolder;
+        font-style: italic;
+    }
+    #whatdo
+    {
+        font-family: 'Playfair Display SC', serif;
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:768px) {
+    #socialicons
+    {
+        flex-direction: row;
+        padding: 0.5rem;
+        justify-content: center;
+    }
+    #navlinks
+    {
+        justify-content: center;
+        text-align: center;
+    }
+    .hero
+    {
+        background-repeat: no-repeat;
+        background-color: 0;
+        background-image: url('./images/dl.beatsnoop.com\ -\ 1635576189.jpg');
+        /* background-color: #683ccd; */
+        width: 100%;
+        height: 25rem;
+        background-position: center;
+        background-size: cover;
+    }
+    .hero #title
+    {
+        color: black;
+    }
+    #aboutimg
+    {
+        height: 19rem;
+        border-radius: 50% ;
+        width: 40%;
+    }
+    blockquote
+    {
+        background-color: #e4edf9;
+        width: 30%;
+        opacity: 0.5;
+        color: black;
+        border-radius: 0.9rem;
+        padding: 0.1rem;
+        font-family: 'DM Serif Display', cursive;
+        font-weight: bolder;
+        font-style: italic;
+
+    }
+    #date
+    {
+        background-color: #e4edf9;
+            width: 60%;
+            opacity: 0.5;
+            color: black;
+            border-radius: 0.9rem;
+            padding: 0.1rem;
+            font-family: 'DM Serif Display', cursive;
+            font-weight: bolder;
+            font-style: italic;
+    }
+}
+@media (max-width:1070px)
+{
+    .hero
+    {
+        /* background-image: url('./images/darshan.jpeg'); */
+        width: 100%;
+        height: 22rem;
+        background-position: center;
+    }
+    
+}
