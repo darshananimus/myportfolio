@@ -74,7 +74,7 @@ body
     padding: 9rem 0 0 1rem;
     justify-content: center;
     text-align: center;
-    
+    font-size: 3rem;
 }
 .hero-desc #herobg
 {
@@ -86,7 +86,7 @@ body
     color: black; 
     font-family: 'Dancing Script', cursive;
     font-weight: 900;
-    font-size: 4rem;
+    font-size: 3rem;
     width: 100%;
     margin: auto;
 }
@@ -113,11 +113,13 @@ body
 #aboutimg
 {
     height: 20rem;
+    background-position: center;
     /* border-radius: 50% ; */
 }
 #whatdo
 {
     font-family: 'Playfair Display SC', serif;
+    font-size: 2rem;
 }
 
 #education
