@@ -47,6 +47,9 @@ body
 {
     color: #3b5998;
 }
+body{
+    position: relative;
+}
 .hero
 {
     background-image: url('./images/dl.beatsnoop.com\ -\ 1635576189.jpg');
@@ -57,7 +60,8 @@ body
     background-repeat: no-repeat;
     background-size: cover;
    justify-content: center;
-   /* margin-top: 2rem; */
+   /* position: absolute; */
+   margin-top: 4rem;
     /* background-color: #683ccd; */
 }
 /* toggler icon modifing */
