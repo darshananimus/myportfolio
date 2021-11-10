@@ -159,6 +159,10 @@ blockquote
     font-style: italic;
 
 }
+#card_column
+{
+    padding: 0;
+}
 #date
 {
     background-color: #e4edf9;
