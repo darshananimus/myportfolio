@@ -393,11 +393,11 @@ blockquote
     #date
     {
         background-color: #e4edf9;
-            width: 60%;
+            width: 30%;
             opacity: 0.5;
             color: black;
             border-radius: 0.9rem;
-            padding: 0.1rem;
+            padding: 0.4rem;
             font-family: 'DM Serif Display', cursive;
             font-weight: bolder;
             font-style: italic;
